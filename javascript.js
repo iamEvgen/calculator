@@ -26,9 +26,12 @@ const dataForCalculator = {
 };
 
 [...buttons].forEach((element => element.addEventListener('click', findButton)));
+[...buttons].forEach((element => element.addEventListener('touchstart', findButton)));
 
 function findButton(event) {
     let command = event.path[0].id;
+    let element = document.getElementById(`${command}`);
+
     checkError();
     checkClear(command);
     checkDel(command);
