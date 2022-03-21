@@ -76,3 +76,15 @@ body {
 #secondLine {
     font-size: 40px;
 }
+
+#clear, #del {
+    background-color: #FAE0E0;
+}
+
+#result {
+    background-color: #E0FAE3;
+}
+
+#plus, #minus, #multiply, #divide, #squareRoot {
+    background-color: #FAF7E0;
+}
