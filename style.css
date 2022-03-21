@@ -63,9 +63,14 @@ body {
     transition: 0.3s;
 }
 
-#firstLine, #secondLine {
+#firstLine {
     padding: 5px;
-    min-height: 18px;
+    min-height: 20px;
+}
+
+#secondLine {
+    padding: 5px;
+    min-height: 40px;
 }
 
 #secondLine {
